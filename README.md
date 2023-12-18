@@ -9,10 +9,11 @@ Um meine HTML Grundgerüst ausprobieren zu können, befolge bitte die folgenden 
 > 3. Öffne den entpackten Ordner.
 > 4. Doppelklicke auf die Datei `index.html`, um die Webseite im Browser zu öffnen.
 
-## HTML5 & CSS Grundgerüst
+## Inhaltsverzeichnis
 
 - [Grundgerüst](#grundgerüst)
   - [Anleitung](#anleitung)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [HTML5 \& CSS Grundgerüst](#html5--css-grundgerüst)
     - [Kommentare](#kommentare)
     - [Verbindung zwischen HTML und CSS](#verbindung-zwischen-html-und-css)
@@ -36,6 +37,9 @@ Um meine HTML Grundgerüst ausprobieren zu können, befolge bitte die folgenden 
       - [Webseite zentrieren mit Width und Margin](#webseite-zentrieren-mit-width-und-margin)
       - [Gesammtbreite einer Box berechnen](#gesammtbreite-einer-box-berechnen)
 
+----
+
+## HTML5 & CSS Grundgerüst
 
 ### Kommentare
 
