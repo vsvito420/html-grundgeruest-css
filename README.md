@@ -15,9 +15,14 @@
     - [Möglichkeit 3: Direkt im HTML-Element mit dem Attribut](#möglichkeit-3-direkt-im-html-element-mit-dem-attribut)
     - [Vorrang der Regeln](#vorrang-der-regeln)
     - [Box-Modell](#box-modell)
-    - [Webseite zentrieren mit Width und Margin](#webseite-zentrieren-mit-width-und-margin)
+      - [Alle Boxen sind gleich - das Modell](#alle-boxen-sind-gleich---das-modell)
+      - [Der Inhaltsbereich: Width und Height](#der-inhaltsbereich-width-und-height)
+      - [Der Innenabstand: Padding](#der-innenabstand-padding)
+      - [Der Rahmen drumherum: Border](#der-rahmen-drumherum-border)
+      - [Der Außenabstand: Margin](#der-außenabstand-margin)
+      - [Webseite zentrieren mit Width und Margin](#webseite-zentrieren-mit-width-und-margin)
+      - [Gesammtbreite einer Box berechnen](#gesammtbreite-einer-box-berechnen)
 
-----
 
 ### Kommentare
 
@@ -141,8 +146,40 @@ In diesem Beispiel wird die Textfarbe der Absätze auf Rot gesetzt, da die zweit
 
 Das Box-Modell beschreibt die verschiedenen Teile eines HTML-Elements, wie z.B. margin (Außenabstand), border (Rahmen), padding (Innerabstand) und content (Inhalt).
 
-### Webseite zentrieren mit Width und Margin
+#### Alle Boxen sind gleich - das Modell
+Das Box-Modell ist ein grundlegendes Konzept in CSS, das die verschiedenen Teile eines HTML-Elements beschreibt, wie z.B. Inhaltsbereich, Innenabstand, Rahmen und Außenabstand.
 
+#### Der Inhaltsbereich: Width und Height
+Der Inhaltsbereich einer Box ist der Bereich, in dem der Inhalt (z.B. Text oder Bilder) angezeigt wird. Die Breite und Höhe des Inhaltsbereichs können mit den CSS-Eigenschaften `width` und `height` festgelegt werden.
+
+#### Der Innenabstand: Padding
+Der Innenabstand ist der Abstand zwischen dem Inhalt und dem Rahmen einer Box. Er kann mit der CSS-Eigenschaft `padding` festgelegt werden. Zum Beispiel:
+```css
+div {
+  padding: 20px;
+}
+```
+In diesem Beispiel wird der Innenabstand der `div`-Elemente auf 20 Pixel gesetzt.
+
+#### Der Rahmen drumherum: Border
+Der Rahmen einer Box ist die Begrenzung des Inhaltsbereichs und kann mit der CSS-Eigenschaft `border` festgelegt werden. Zum Beispiel:
+```css
+div {
+  border: 2px solid #000000;
+}
+```
+In diesem Beispiel wird der Rahmen der `div`-Elemente auf eine 2 Pixel dicke, durchgezogene schwarze Linie gesetzt.
+
+#### Der Außenabstand: Margin
+Der Außenabstand ist der Abstand zwischen einer Box und anderen angrenzenden Elementen. Er kann mit der CSS-Eigenschaft `margin` festgelegt werden. Zum Beispiel:
+```css
+div {
+  margin: 10px;
+}
+```
+In diesem Beispiel wird der Außenabstand der `div`-Elemente auf 10 Pixel gesetzt.
+
+#### Webseite zentrieren mit Width und Margin
 Um eine Webseite zu zentrieren, kann die `margin-left` und `margin-right` auf `auto` gesetzt werden. Beispiel:
 
 ```css
@@ -155,4 +192,15 @@ body {
 
 In diesem Beispiel wird die Breite der Webseite auf 80% der verfügbaren Breite eingestellt und der linke und rechte Rand wird automatisch angepasst, um das Element zentriert darzustellen.
 
-> Danke fürs lesen! Das war Vitos HTML Arbeitsauftrag.
+#### Gesammtbreite einer Box berechnen
+Die Gesammtbreite einer Box kann mit der Formel `width + padding-left + padding-right + border-left + border-right` berechnet werden. Zum Beispiel:
+```css
+div {
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 2px;
+  border-right: 2px;
+}
+```
+In diesem Beispiel beträgt die Gesammtbreite der `div`-Elemente 300 Pixel (300px Breite + 20px linke Padding + 20px rechter Padding + 2px linke Border + 2px rechte Border).
