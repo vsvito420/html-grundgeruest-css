@@ -23,15 +23,14 @@
     - [Möglichkeit 3: Direkt im HTML-Element mit dem Attribut](#möglichkeit-3-direkt-im-html-element-mit-dem-attribut)
     - [Vorrang der Regeln](#vorrang-der-regeln)
     - [Box-Modell](#box-modell)
-      - [Webseite zentrieren mit Width und Margin](#webseite-zentrieren-mit-width-und-margin)
       - [Alle Boxen sind gleich - das Modell](#alle-boxen-sind-gleich-das-modell)
       - [Der Inhaltsbereich: Width und Height](#der-inhaltsbereich-width-und-height)
       - [Der Innenabstand: Padding](#der-innenabstand-padding)
       - [Der Rahmen drumherum: Border](#der-rahmen-drumherum-border)
       - [Der Außenabstand: Margin](#der-äußenabstand-margin)
       - [Gesammtbreite einer Box berechnen](#gesammtbreite-einer-box-berechnen)
+      - [Webseite zentrieren mit Width und Margin](#webseite-zentrieren-mit-width-und-margin)
 
-User:
 
 ### Kommentare
 ```css
@@ -133,19 +132,6 @@ In diesem Beispiel wird die Textfarbe der Absätze auf Rot gesetzt, da die zweit
 ### Box-Modell
 Das Box-Modell beschreibt die verschiedenen Teile eines HTML-Elements, wie z.B. margin (Außenabstand), border (Rahmen), padding (Innerabstand) und content (Inhalt).
 
-#### Webseite zentrieren mit Width und Margin
-Um eine Webseite zu zentrieren, kann die `margin-left` und `margin-right` auf `auto` gesetzt werden. Beispiel:
-```css
-body {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-```
-In diesem Beispiel wird die Breite der Webseite auf 80% der verfügbaren Breite eingestellt und der linke und rechte Rand wird automatisch angepasst, um das Element zentriert darzustellen.
-
-Hier sind die Inhalte zum Box-Modell:
-
 #### Alle Boxen sind gleich - das Modell
 Das Box-Modell ist ein grundlegendes Konzept in CSS, das die verschiedenen Teile eines HTML-Elements beschreibt, wie z.B. Inhaltsbereich, Innenabstand, Rahmen und Außenabstand.
 
@@ -178,6 +164,17 @@ div {
 }
 ```
 In diesem Beispiel wird der Außenabstand der `div`-Elemente auf 10 Pixel gesetzt.
+
+#### Webseite zentrieren mit Width und Margin
+Um eine Webseite zu zentrieren, kann die `margin-left` und `margin-right` auf `auto` gesetzt werden. Beispiel:
+```css
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+In diesem Beispiel wird die Breite der Webseite auf 80% der verfügbaren Breite eingestellt und der linke und rechte Rand wird automatisch angepasst, um das Element zentriert darzustellen.
 
 #### Gesammtbreite einer Box berechnen
 Die Gesammtbreite einer Box kann mit der Formel `width + padding-left + padding-right + border-left + border-right` berechnet werden. Zum Beispiel:
