@@ -21,9 +21,9 @@
     - [Möglichkeit 1: CSS-Regeln in einer eigenen Datei](#möglichkeit-1-css-regeln-in-einer-eigenen-datei)
     - [Möglichkeit 2: Zwischen head und head Element style](#möglichkeit-2-zwischen-head-und-head-element-style)
     - [Möglichkeit 3: Direkt im HTML-Element mit dem Attribut](#möglichkeit-3-direkt-im-html-element-mit-dem-attribut)
-    - [Box-Modell](#box-modell)
     - [Vorrang der Regeln](#vorrang-der-regeln)
-    - [Webseite zentrieren mit Width und Margin](#webseite-zentrieren-mit-width-und-margin)
+    - [Box-Modell](#box-modell)
+      - [Webseite zentrieren mit Width und Margin](#webseite-zentrieren-mit-width-und-margin)
 
 ### Kommentare
 ```css
