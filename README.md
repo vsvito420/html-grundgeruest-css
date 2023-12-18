@@ -8,6 +8,7 @@
 - [Kontaktadresse in Fußzeile](#kontaktadresse-in-fußzeile)
 - [Links (das HTML-Element a)](#links-das-html-element-a)
 - [Wenn die Maus darüberschwebt (Pseudoklassen)](#wenn-die-maus-darüberschwebt-pseudoklassen)
+- [Möglichkeit 1: CSS-Regeln in einer eigenen Datei]
 - [Möglichkeit 2: Zwischen head und head Element style](#möglichkeit-2-zwischen-head-und-head-element-style)
 - [Möglichkeit 3: Direkt im HTML-Element mit dem Attribut](#möglichkeit-3-direkt-im-html-element-mit-dem-attribut)
 
@@ -79,6 +80,10 @@ a:hover {
 }
 ```
 
+
+### Möglichkeit 1: CSS-Regeln in einer eigenen Datei
+Um CSS-Regeln in einer eigenen Datei zu speichern, erstelle eine separate CSS-Datei (z.B. `styles.css`) und verlinke sie in deinem HTML-Dokument.
+
 ### Möglichkeit 2: Zwischen head und head Element style
 ```html
 <style>
@@ -90,3 +95,30 @@ a:hover {
 ```html
 <p style="color: #0000ff;">Dies ist ein Beispieltext.</p>
 ```
+
+### Vorrang der Regeln
+In CSS gelten die Regeln, die später im Code stehen, wenn mehrere Regeln auf das gleiche Element angewendet werden. Zum Beispiel:
+```css
+p {
+  color: #000000;
+}
+
+p {
+  color: #ff0000;
+}
+```
+In diesem Beispiel wird die Textfarbe der Absätze auf Rot gesetzt, da die zweite Regel später im Code steht.
+
+### Box-Modell
+Das Box-Modell beschreibt die verschiedenen Teile eines HTML-Elements, wie z.B. margin (Außenabstand), border (Rahmen), padding (Innerabstand) und content (Inhalt).
+
+### Webseite zentrieren mit Width und Margin
+Um eine Webseite zu zentrieren, kann die `margin-left` und `margin-right` auf `auto` gesetzt werden. Beispiel:
+```css
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+In diesem Beispiel wird die Breite der Webseite auf 80% der verfügbaren Breite eingestellt und der linke und rechte Rand wird automatisch angepasst, um das Element zentriert darzustellen.
