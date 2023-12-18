@@ -23,6 +23,30 @@ Der DOCTYPE muss in der allerersten Zeile des Quelltext stehen
 ### Stammelement
 
     <html>
-      .. hier kommt der Ganze HTML code hin
+      <!.. hier kommt der Ganze HTML code hin>
     </html>
 
+### Header
+
+    <html>
+	    <head>
+		    <!Wichtige Informationen über die webseite kommen hier  hin>
+	    </head>
+    <html>
+### Metadaten
+#### Angabe des Zeichensatzes
+
+    <meta charset="utf-8"
+Während des editieren der HTML muss die datei natürlich in UTF-8 auch gespeichert werden.
+
+#### Beschreibung von der Webseite
+
+    <meta name="beschreibung" content="...">
+Es sollten ungefähr zwei bis 3 ganze sätze verwendet werden um die webseite zu beschreiben
+
+### Body
+
+    <html>
+	    <body>
+	    </body>
+    </html>
