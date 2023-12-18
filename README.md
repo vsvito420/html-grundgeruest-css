@@ -1,6 +1,19 @@
-# HTML5 & CSS Grundgerüst
+# Grundgerüst
 
-- [HTML5 \& CSS Grundgerüst](#html5--css-grundgerüst)
+## Anleitung
+
+Um die Dateien ausprobieren zu können, befolge bitte die folgenden Schritte:
+
+1. Lade das ZIP-Archiv von meinem Repository herunter: [Link zu deinem Repository]
+2. Entpacke das heruntergeladene ZIP-Archiv.
+3. Öffne den entpackten Ordner.
+4. Doppelklicke auf die Datei `index.html`, um die Webseite im Browser zu öffnen.
+
+## HTML5 & CSS Grundgerüst
+
+- [Grundgerüst](#grundgerüst)
+  - [Anleitung](#anleitung)
+  - [HTML5 \& CSS Grundgerüst](#html5--css-grundgerüst)
     - [Kommentare](#kommentare)
     - [Verbindung zwischen HTML und CSS](#verbindung-zwischen-html-und-css)
     - [Hintergrund und Schriftfarbe](#hintergrund-und-schriftfarbe)
@@ -147,39 +160,51 @@ In diesem Beispiel wird die Textfarbe der Absätze auf Rot gesetzt, da die zweit
 Das Box-Modell beschreibt die verschiedenen Teile eines HTML-Elements, wie z.B. margin (Außenabstand), border (Rahmen), padding (Innerabstand) und content (Inhalt).
 
 #### Alle Boxen sind gleich - das Modell
+
 Das Box-Modell ist ein grundlegendes Konzept in CSS, das die verschiedenen Teile eines HTML-Elements beschreibt, wie z.B. Inhaltsbereich, Innenabstand, Rahmen und Außenabstand.
 
 #### Der Inhaltsbereich: Width und Height
+
 Der Inhaltsbereich einer Box ist der Bereich, in dem der Inhalt (z.B. Text oder Bilder) angezeigt wird. Die Breite und Höhe des Inhaltsbereichs können mit den CSS-Eigenschaften `width` und `height` festgelegt werden.
 
 #### Der Innenabstand: Padding
+
 Der Innenabstand ist der Abstand zwischen dem Inhalt und dem Rahmen einer Box. Er kann mit der CSS-Eigenschaft `padding` festgelegt werden. Zum Beispiel:
+
 ```css
 div {
   padding: 20px;
 }
 ```
+
 In diesem Beispiel wird der Innenabstand der `div`-Elemente auf 20 Pixel gesetzt.
 
 #### Der Rahmen drumherum: Border
+
 Der Rahmen einer Box ist die Begrenzung des Inhaltsbereichs und kann mit der CSS-Eigenschaft `border` festgelegt werden. Zum Beispiel:
+
 ```css
 div {
   border: 2px solid #000000;
 }
 ```
+
 In diesem Beispiel wird der Rahmen der `div`-Elemente auf eine 2 Pixel dicke, durchgezogene schwarze Linie gesetzt.
 
 #### Der Außenabstand: Margin
+
 Der Außenabstand ist der Abstand zwischen einer Box und anderen angrenzenden Elementen. Er kann mit der CSS-Eigenschaft `margin` festgelegt werden. Zum Beispiel:
+
 ```css
 div {
   margin: 10px;
 }
 ```
+
 In diesem Beispiel wird der Außenabstand der `div`-Elemente auf 10 Pixel gesetzt.
 
 #### Webseite zentrieren mit Width und Margin
+
 Um eine Webseite zu zentrieren, kann die `margin-left` und `margin-right` auf `auto` gesetzt werden. Beispiel:
 
 ```css
@@ -193,7 +218,9 @@ body {
 In diesem Beispiel wird die Breite der Webseite auf 80% der verfügbaren Breite eingestellt und der linke und rechte Rand wird automatisch angepasst, um das Element zentriert darzustellen.
 
 #### Gesammtbreite einer Box berechnen
+
 Die Gesammtbreite einer Box kann mit der Formel `width + padding-left + padding-right + border-left + border-right` berechnet werden. Zum Beispiel:
+
 ```css
 div {
   width: 300px;
@@ -203,4 +230,5 @@ div {
   border-right: 2px;
 }
 ```
+
 In diesem Beispiel beträgt die Gesammtbreite der `div`-Elemente 300 Pixel (300px Breite + 20px linke Padding + 20px rechter Padding + 2px linke Border + 2px rechte Border).
