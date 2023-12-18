@@ -1,52 +1,92 @@
-# HTML5 & CSS Grundgerüst
 
-## HTML
+# CSS-Themen
+- [Kommentare](#kommentare)
+- [Verbindung zwischen HTML und CSS](#verbindung-zwischen-html-und-css)
+- [Hintergrund und Schriftfarbe](#hintergrund-und-schriftfarbe)
+- [Schrift und Schriftgröße](#schrift-und-schriftgröße)
+- [Schriftgröße der Überschrift ändern](#schriftgröße-der-überschrift-ändern)
+- [Kontaktadresse in Fußzeile](#kontaktadresse-in-fußzeile)
+- [Links (das HTML-Element a)](#links-das-html-element-a)
+- [Wenn die Maus darüberschwebt (Pseudoklassen)](#wenn-die-maus-darüberschwebt-pseudoklassen)
+- [Möglichkeit 2: Zwischen head und head Element style](#möglichkeit-2-zwischen-head-und-head-element-style)
+- [Möglichkeit 3: Direkt im HTML-Element mit dem Attribut](#möglichkeit-3-direkt-im-html-element-mit-dem-attribut)
 
-### Skelett
+### Kommentare
+```css
+/* Dies ist ein einzeiliger Kommentar */
 
-> Das HTML Grundgerüst ist das Skelett einer Webseite..
-> 1. in der ersten Zeile steht DOCTYPE..
-> 2. das Stammelement html umschließt den head und den body
-> 3. head zeigt Information über die Webseite und Elemente wie title und meta
-> 4. body enthällt den inhalt der im browserfenster angezeigt wird.
+/*
+Dies ist
+ein mehrzeiliger
+Kommentar
+*/
+```
 
-    <! Kommentare sehen so aus >
-   
-### DOCTYPE
-Der DOCTYPE muss in der allerersten Zeile des Quelltext stehen
+### Verbindung zwischen HTML und CSS
+```html
+<link rel="stylesheet" type="text/css" href="styles.css">
+```
 
-    <!DOCTYPE  html>
-    <html  lang="de">
-    ...
-    </html>
+### Hintergrund und Schriftfarbe
+```css
+body {
+  background-color: #f2f2f2;
+  color: #333333;
+}
 
-### Stammelement
+div {
+  background-color: #ffffff;
+  color: #666666;
+}
 
-    <html>
-      <!.. hier kommt der Ganze HTML code hin>
-    </html>
+header {
+  background-color: #008080;
+  color: #ffffff;
+}
+/* Weitere Selektoren und Eigenschaften können entsprechend hinzugefügt werden */
 
-### Header
+### Schrift und Schriftgröße
+```css
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+```
 
-    <html>
-	    <head>
-		    <!Wichtige Informationen über die webseite kommen hier  hin>
-	    </head>
-    <html>
-### Metadaten
-#### Angabe des Zeichensatzes
+### Schriftgröße der Überschrift ändern
+```css
+h1 {
+  font-size: 24px;
+}
+```
 
-    <meta charset="utf-8"
-Während des editieren der HTML muss die datei natürlich in UTF-8 auch gespeichert werden.
+### Kontaktadresse in Fußzeile
+```html
+<footer>
+  Kontakt: example@example.com
+</footer>
+```
 
-#### Beschreibung von der Webseite
+### Links (das HTML-Element a)
+```html
+<a href="https://www.example.com">Besuch unsere Website</a>
+```
 
-    <meta name="beschreibung" content="...">
-Es sollten ungefähr zwei bis 3 ganze sätze verwendet werden um die webseite zu beschreiben
+### Wenn die Maus darüberschwebt (Pseudoklassen)
+```css
+a:hover {
+  color: #ff0000;
+}
+```
 
-### Body
+### Möglichkeit 2: Zwischen head und head Element style
+```html
+<style>
+  /* CSS-Regeln hier einfügen */
+</style>
+```
 
-    <html>
-	    <body>
-	    </body>
-    </html>
+### Möglichkeit 3: Direkt im HTML-Element mit dem Attribut
+```html
+<p style="color: #0000ff;">Dies ist ein Beispieltext.</p>
+```
