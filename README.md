@@ -8,7 +8,7 @@
 - [Kontaktadresse in Fußzeile](#kontaktadresse-in-fußzeile)
 - [Links (das HTML-Element a)](#links-das-html-element-a)
 - [Wenn die Maus darüberschwebt (Pseudoklassen)](#wenn-die-maus-darüberschwebt-pseudoklassen)
-- [Möglichkeit 1: CSS-Regeln in einer eigenen Datei]
+- [Möglichkeit 1: CSS-Regeln in einer eigenen Datei](#möglichkeit-1-css-regeln-in-einer-eigenen-datei)
 - [Möglichkeit 2: Zwischen head und head Element style](#möglichkeit-2-zwischen-head-und-head-element-style)
 - [Möglichkeit 3: Direkt im HTML-Element mit dem Attribut](#möglichkeit-3-direkt-im-html-element-mit-dem-attribut)
 
