@@ -2,12 +2,12 @@
 
 ## Anleitung
 
-Um die Dateien ausprobieren zu können, befolge bitte die folgenden Schritte:
+Um meine HTML Grundgerüst ausprobieren zu können, befolge bitte die folgenden Schritte:
 
-1. Lade das ZIP-Archiv von meinem Repository herunter: [Link zu deinem Repository]
-2. Entpacke das heruntergeladene ZIP-Archiv.
-3. Öffne den entpackten Ordner.
-4. Doppelklicke auf die Datei `index.html`, um die Webseite im Browser zu öffnen.
+> 1. Lade das ZIP-Archiv von meinem Repository herunter: [[Download ZIP](https://codeload.github.com/vsvito420/html-grundgeruest-css/zip/refs/heads/main)]
+> 2. Entpacke das heruntergeladene ZIP-Archiv.
+> 3. Öffne den entpackten Ordner.
+> 4. Doppelklicke auf die Datei `index.html`, um die Webseite im Browser zu öffnen.
 
 ## HTML5 & CSS Grundgerüst
 
