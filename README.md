@@ -37,8 +37,13 @@ Um meine HTML Grundgerüst ausprobieren zu können, befolge bitte die folgenden 
       - [Webseite zentrieren mit Width und Margin](#webseite-zentrieren-mit-width-und-margin)
       - [Gesammtbreite einer Box berechnen](#gesammtbreite-einer-box-berechnen)
 
-----
+.
 
+.
+
+.
+
+.
 ## HTML5 & CSS Grundgerüst
 
 ### Kommentare
@@ -143,7 +148,8 @@ Um CSS-Regeln in einer eigenen Datei zu speichern, erstelle eine separate CSS-Da
 
 ### Vorrang der Regeln
 
-In CSS gelten die Regeln, die später im Code stehen, wenn mehrere Regeln auf das gleiche Element angewendet werden. Zum Beispiel:
+In CSS gelten die Regeln, die später im Code stehen, wenn mehrere Regeln auf das gleiche Element angewendet werden. 
+Zum Beispiel:
 
 ```css
 p {
@@ -173,7 +179,9 @@ Der Inhaltsbereich einer Box ist der Bereich, in dem der Inhalt (z.B. Text oder 
 
 #### Der Innenabstand: Padding
 
-Der Innenabstand ist der Abstand zwischen dem Inhalt und dem Rahmen einer Box. Er kann mit der CSS-Eigenschaft `padding` festgelegt werden. Zum Beispiel:
+Der Innenabstand ist der Abstand zwischen dem Inhalt und dem Rahmen einer Box. Er kann mit der CSS-Eigenschaft `padding` festgelegt werden. 
+
+Zum Beispiel:
 
 ```css
 div {
@@ -185,7 +193,9 @@ In diesem Beispiel wird der Innenabstand der `div`-Elemente auf 20 Pixel gesetzt
 
 #### Der Rahmen drumherum: Border
 
-Der Rahmen einer Box ist die Begrenzung des Inhaltsbereichs und kann mit der CSS-Eigenschaft `border` festgelegt werden. Zum Beispiel:
+Der Rahmen einer Box ist die Begrenzung des Inhaltsbereichs und kann mit der CSS-Eigenschaft `border` festgelegt werden. 
+
+Zum Beispiel:
 
 ```css
 div {
@@ -197,7 +207,9 @@ In diesem Beispiel wird der Rahmen der `div`-Elemente auf eine 2 Pixel dicke, du
 
 #### Der Außenabstand: Margin
 
-Der Außenabstand ist der Abstand zwischen einer Box und anderen angrenzenden Elementen. Er kann mit der CSS-Eigenschaft `margin` festgelegt werden. Zum Beispiel:
+Der Außenabstand ist der Abstand zwischen einer Box und anderen angrenzenden Elementen. Er kann mit der CSS-Eigenschaft `margin` festgelegt werden. 
+
+Zum Beispiel:
 
 ```css
 div {
@@ -223,7 +235,9 @@ In diesem Beispiel wird die Breite der Webseite auf 80% der verfügbaren Breite 
 
 #### Gesammtbreite einer Box berechnen
 
-Die Gesammtbreite einer Box kann mit der Formel `width + padding-left + padding-right + border-left + border-right` berechnet werden. Zum Beispiel:
+Die Gesammtbreite einer Box kann mit der Formel `width + padding-left + padding-right + border-left + border-right` berechnet werden. 
+
+Zum Beispiel:
 
 ```css
 div {
