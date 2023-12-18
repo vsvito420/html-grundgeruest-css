@@ -29,3 +29,76 @@ div #kopfbereich {
     padding-bottom: 0;
     padding-left: 20px;
 }
+div #navibereich {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+div #textbereich {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;;
+    padding-left: 20px;
+}
+div #fussbereich {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;;
+    padding-left: 20px;
+    border-top: 1px solid #8cd9d9;
+    margin-top: 0;
+}
+img #logo {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 10px solid #d9d9d9;
+}
+
+h1 {
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+address {
+    text-align: center;
+    font-size: 80%;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 1,5;
+}
+a {
+    text-decoration: none;
+    /* outline none*/
+}
+a:link {
+    color: #d90000;
+}
+a:visited {
+    color: #cc6666;
+}
+a:hover, a:focus {
+    border-bottom: 1px solid #d90000;
+}
+a:active {
+    background-color: #d90000;
+    color: white;
+}
+div #textbereich a{
+    border-bottom: 1px dotted #cc0000;
+}
+div #textbereich a:hover{
+    border-bottom: 1px solid #d90000;
+}
+p #slogan span{
+    color: #d90000; /* Schriftfarbe */
+}
+h2, p, ul, ol, blockquote {
+    margin-bottom: 1em;
+}
+/* Verschachtelte listen */
+ul ul, ul ol, ol ol, ol ul {
+    mar
+}
