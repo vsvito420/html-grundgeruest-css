@@ -1,1 +1,31 @@
 /* Stylesheet für die Beispielseite aus "Einstieg in CSS" */
+*{ 
+    padding: 0; 
+    margin:0
+}
+html {
+    overflow-y: scroll;
+}
+body {
+    background: #8c8c8c url(hintergrund.png) fixed repeat left top;
+    color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87,5%;
+}
+div #wrapper {
+    background-color: white;
+    color:black;
+    width: 720px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+div #kopfbereich {
+    background-color: #f3c600;
+    color: black;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
