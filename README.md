@@ -80,7 +80,7 @@ a:hover {
 }
 ```
 
-
+## Regeln:
 ### Möglichkeit 1: CSS-Regeln in einer eigenen Datei
 Um CSS-Regeln in einer eigenen Datei zu speichern, erstelle eine separate CSS-Datei (z.B. `styles.css`) und verlinke sie in deinem HTML-Dokument.
 
