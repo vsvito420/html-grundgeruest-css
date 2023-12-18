@@ -98,7 +98,11 @@ p #slogan span{
 h2, p, ul, ol, blockquote {
     margin-bottom: 1em;
 }
-/* Verschachtelte listen */
+/* Verschachtelte listen ohne abstand*/
 ul ul, ul ol, ol ol, ol ul {
-    mar
+    margin-bottom: 0;
+}
+/* Abstand von links für listen */
+ul, ol {
+    margin-left: 2em;
 }
